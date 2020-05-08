@@ -53,7 +53,7 @@ while(flag):
         print(professor2)
 
     else:
-        print("Opção inválida, hasta la vista")
+        print("Opção inválida. Hasta la vista,baby")
         break
 
 
