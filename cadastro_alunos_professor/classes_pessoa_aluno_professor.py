@@ -5,13 +5,9 @@ class Pessoa:
         self.cpf = cpf
         self.data_nascimento = data
 
-
-
     def __str__(self):
 
         return str(self.nome,self.cpf,self.data_nascimento)
-
-
 
 class Aluno(Pessoa):
 

@@ -1,6 +1,5 @@
-from classes_pessoa_aluno_professor import Aluno
-from classes_pessoa_aluno_professor import Professor
-
+from cadastro_alunos_professor.classes_pessoa_aluno_professor import Aluno
+from cadastro_alunos_professor.classes_pessoa_aluno_professor import Professor
 nota = []
 aluno2 = []
 professor2 = []
@@ -20,7 +19,7 @@ while(flag):
     if x == 1:
 
         nome = input("Digite o nome do aluno: ")
-        cpf = input("Digite o cpf do aluno")
+        cpf = input("Digite o cpf do aluno ")
         data = input("Data de nascimento do aluno (00/00/00) ")
         for i in range(4):
             n = int(input("Digite a {}º  nota: ".format(i+1)))
@@ -43,13 +42,15 @@ while(flag):
 
         for numero in nota:
             soma += numero
-        print("Nota final {}".format(soma/4))
+        print("Nota final {} ".format(soma/4))
+        nota.clear()
 
     elif x == 4:
        print(aluno2)
 
 
     elif x == 5:
+
         print(professor2)
 
     else:
